@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-color: #f5f5f5;
+    color: #4b4a4a;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+.original {
+    display: block;
+    width: 700px; 
+    margin: 20px auto; 
+    border: 3px solid black; 
+}
+
+ .copia-image {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #4b4a4a 3px solid;
+
+}
+
+/* html_logo */
+.html_logo {
+    position: absolute;
+    left: 150px;
+    transform: translateY(-10%);
+    transform: translateX(-10%);
+    width: 120px;
+    height: 150px;
+    background-color: rgb(226, 107, 60);
+    background: linear-gradient(to right, #E44D26 50%, #F16529 10%);
+    clip-path: polygon(50% 10%, 100% 14%, 90% 80%, 50% 100%, 10% 80%, 0% 14%);
+}
+
+.html_logo::after {
+    position: absolute;
+    content: "5"; 
+    width: 15px;
+    height: 25px;
+    top: -10px;
+    transform: translateY(-10%) translateX(-125%);
+    left: 33px; 
+    font-size: 110px;
+    font-weight: bold;
+    color: white;
+    font-family: "Orbitron", sans-serif; 
+}
+
+/*
+.html_logo::after {
+    position: absolute; 
+    content: "|"; 
+    display: block;
+    width: 10px;
+    height: 5px;
+    top: 20px;
+    left: 50%;
+    transform: translateY(100%) translateX(-250%);
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+*/
+/*
+.html_box_logo::before{
+    position: relative;
+    left: 150px;
+    transform: translateY(-10%);
+    transform: translateX(-10%);
+    width: 120px;
+    height: 150px;
+    background-color: rgb(226, 107, 60);
+    background: linear-gradient(to right, #E44D26 50%, #F16529 10%);
+    clip-path: polygon(50% 10%, 100% 14%, 90% 80%, 50% 100%, 10% 80%, 0% 14%);
+}
+.html_box_logo::after{
+    position: absolute; 
+    content: "|"; 
+    display: block;
+    width: 10px;
+    height: 5px;
+    top: 20px;
+    left: 50%;
+    transform: translateY(100%) translateX(-250%) rotate(90deg);
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+*/
+
+
+
+/* css_logo */
+.css_logo {
+    position: absolute;
+    left: 450px;
+    transform: translateY(800%);
+    transform: translateX(-10%);
+    width: 120px;
+    height: 150px;
+    background-color: rgb(20, 86, 219);
+    background: linear-gradient(to right, #1b34d7 50%, #3177f0 10%);
+    clip-path: polygon(50% 10%, 100% 14%, 90% 80%, 50% 100%, 10% 80%, 0% 14%);
+}
+
+.css_logo::after {
+    position: absolute;
+    content: "3"; 
+    width: 15px;
+    height: 25px;
+    top: -10px;
+    transform: translateY(-15%) translateX(-100%);
+    left: 33px; 
+    font-size: 110px;
+    font-weight: bold;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    
+}
+
+
+.plus{
+    position: absolute;
+    transform: translateY(100%);
+    right: 150px;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    bottom: 10px;
+}
+
+.HTML{
+    position: relative;
+    color: black;
+    transform: translate(-155%, -200%);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.CSS{
+    position: absolute;
+    color: black;
+    transform: translateX(250%);
+    top: 90px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: Arial sans-serif  ;
+}
+
+.more{
+    position: relative;
+    left: -35px;
+    color: rgb(0, 0, 0);
+    transform: translate(0%, 0%);
+    font-weight: bolder;
+    font-size: 80px;
+    font-style: Arial sans-serif  ;
+}
